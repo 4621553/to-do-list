@@ -57,3 +57,10 @@
     console.log('filteredByUserId:', filteredByUserId)
   }
 
+  const clearLists = () => {
+    removeText = document.getElementById("filter-list")
+    removeText.innerHTML = ""
+    RemoveText = document.getElementById("todo-list")
+    RemoveText.innerHTML = ""
+  }
+
