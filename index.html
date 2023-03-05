@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./to-do.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+<div class="button">
+  <button onclick="fetchTodos()">Fetch Todos</button>
+  <button onclick="logTodos()">Log Todos</button>
+  <button onclick="populateTodos()">Populate Todos</button>
+  <button onclick="filterTodos()">Filter Todos</button>
+  <button onclick="clearLists()">Clear Lists</button>
+</div>
+<div class="lists">
+  <ol id="todo-list">
+  <!-- LIs will go here -->
+  </ol>
+  <ol id="completed-list">
+    <!-- LIs will go here -->
+    </ol>
+  <ol id="filter-list">
+    <!-- LIs will go here -->
+    </ol>
+  </div>
+</body>
+</html>
